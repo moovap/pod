@@ -29,12 +29,16 @@ After you have your pod instance successfully running, you can request PDF files
 
     wget http://youserveraddress.com/convert?filename=test&html=<h3>Blabla</h3>
 
-There is a gem called pod_rails that integrates it to your Rails application.
+There is a gem called [pod_rails](https://github.com/jdanielnd/pod_rails) that integrates it to your Rails application.
 
 ## Contributing
+
+If you'd like to contribute to Pod, follow the steps below:
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+We really need people to help us improving Pod!
