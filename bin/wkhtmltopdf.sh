@@ -1,1 +1,1 @@
-xvfb-run -a -s "-screen 0 640x480x16" /usr/local/bin/wkhtmltopdf-amd64 $*
+xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf-amd64 $*

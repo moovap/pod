@@ -8,6 +8,8 @@ The commercial solutions available today are very expensive and prevents cost-ef
 
 This is an application that needs to be hosted in a server where you have full access, since you will need to install [Xvfb](http://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml).
 
+Here is a blog post about how to install Pod as a HTML to PDF provider [How to create your own HTML to PDF provider](http://blog.hugerepo.com/2013/04/29/how-to-create-your-own-html-to-pdf-provider/)
+
 ## Installation
 
 In order to have the proper environment set, you need to install Xvfb, which allows us to run wkhtmltopdf within a X server instance. To do that, type:
