@@ -14,6 +14,10 @@ In order to have the proper environment set, you need to install Xvfb, which all
 
     sudo apt-get install xvfb
 
+You also need to install the `libssl-0.9.8` library, what allows Qt to fetch SSL sites. That might be the case if the HTML you're trying to render have assets (such as CSS or JS) hosted in `https` websites.
+
+    sudo apt-get install libssl-0.9.8
+
 You also need to have a proper enviroment to run a Ruby on Rails application. I followed this [RailsCast](http://railscasts.com/episodes/335-deploying-to-a-vps) provided by Ryan Bates. It's a pro feature, so you need to subscribe it to get access. If you're a Ruby/Rails programmer, I really recommend you to do so.
 
 If all that set, you just need to get the application in your machine, and deploy it to your server.
