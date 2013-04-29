@@ -51,5 +51,6 @@ production:
   encoding: unicode
   database: pod_production
   pool: 5
+  host: localhost
   username: pod
   password:

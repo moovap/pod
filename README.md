@@ -27,7 +27,7 @@ If all that set, you just need to get the application in your machine, and deplo
 
 After you have your pod instance successfully running, you can request PDF files bu using its public API.
 
-    wget http://youserveraddress.com/convert?filename=test&html=<h3>Blabla</h3>
+    wget http://<youserveraddress.com>/convert?filename=test&html=<h3>Blabla</h3>
 
 There is a gem called [pod_rails](https://github.com/jdanielnd/pod_rails) that integrates it to your Rails application.
 
