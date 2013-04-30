@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jdanielnd/pod.png?branch=master)](https://travis-ci.org/jdanielnd/pod)
+
 # Pod
 
 Pod is a back-end application that provides an API for HTML to PDF conversion.
