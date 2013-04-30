@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jdanielnd/pod.png?branch=master)](https://travis-ci.org/jdanielnd/pod)
+[![Build Status](https://travis-ci.org/jdanielnd/pod.png?branch=master)](https://travis-ci.org/jdanielnd/pod) [![Code Climate](https://codeclimate.com/github/jdanielnd/pod.png)](https://codeclimate.com/github/jdanielnd/pod)
 
 # Pod
 
