@@ -1,6 +1,7 @@
 class ConverterController < ApplicationController
   def convert
     name = params[:filename]
+    # html = params[:html]
     compressed_html = params[:html]
     html = ActiveSupport::Gzip.decompress(compressed_html)
     options = params[:options] || {}
