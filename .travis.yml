@@ -1,7 +1,7 @@
 language: ruby
 before_script:
   - bundle list
-  - sudo curl http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2 | tar xvj -C /usr/bin
+  - sudo curl http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2 | sudo tar xvj -C /usr/bin
   - sudo chmod a+x /usr/bin/wkhtmltopdf
   - sudo apt-get install -y openssl build-essential xorg libssl-dev libxrender-dev libqt4-dev qt4-dev-tools
   - "export DISPLAY=:99.0"
