@@ -3,9 +3,9 @@ before_script:
   - bundle list
   - sudo curl http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2 | sudo tar xvj -C /usr/bin
   - sudo chmod a+x /usr/bin/wkhtmltopdf-amd64
-  - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
 env: WKHTMLTOPDF_BIN=/usr/bin/wkhtmltopdf-amd64
+env: DISPLAY=:99.0
 rvm:
   - 1.9.3
   - rbx-19mode
