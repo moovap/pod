@@ -1,4 +1,4 @@
-# Pod
+# Pod: your own server-side factory of PDFs
 
 ![Gutemberg](http://s15.postimg.org/rz9dhxg8r/gutemberg.png)
 
@@ -54,3 +54,7 @@ If you'd like to contribute to Pod, follow the steps below:
 5. Create new Pull Request
 
 We really need people to help us improving Pod!
+
+# License
+
+pOD is MIT Licensed and © Tecto ID.  See LICENSE.txt for details.
