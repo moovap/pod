@@ -57,4 +57,4 @@ We really need people to help us improving Pod!
 
 # License
 
-pOD is MIT Licensed and © Tecto ID.  See LICENSE.txt for details.
+Pod is MIT Licensed and © Tecto ID.  See LICENSE for details.
