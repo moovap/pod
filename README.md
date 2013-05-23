@@ -1,6 +1,10 @@
-[![Build Status](https://travis-ci.org/jdanielnd/pod.png?branch=master)](https://travis-ci.org/jdanielnd/pod) [![Code Climate](https://codeclimate.com/github/jdanielnd/pod.png)](https://codeclimate.com/github/jdanielnd/pod)
-
 # Pod
+
+![Gutemberg](http://s15.postimg.org/rz9dhxg8r/gutemberg.png)
+
+[![Build Status](https://travis-ci.org/jdanielnd/pod.png?branch=master)](https://travis-ci.org/jdanielnd/pod)
+[![Code Climate](https://codeclimate.com/github/jdanielnd/pod.png)](https://codeclimate.com/github/jdanielnd/pod)
+
 
 Pod is a back-end application that provides an API for HTML to PDF conversion.
 
