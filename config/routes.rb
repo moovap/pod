@@ -1,5 +1,6 @@
 Pod::Application.routes.draw do
   #get "converter/convert"
+  root :to => 'converter#convert'
   match 'convert' => 'converter#convert'
 
   # The priority is based upon order of creation:
