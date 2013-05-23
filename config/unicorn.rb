@@ -1,7 +1,7 @@
 app_name = "pod"
 root = "/home/deployer/apps/#{app_name}/current"
 working_directory root
-pid "#{root}/tmp/pids/unicorn.pid"
+pid "/var/run/unicorn_#{app_name}.pid"
 stderr_path "#{root}/log/unicorn.log"
 stdout_path "#{root}/log/unicorn.log"
 
