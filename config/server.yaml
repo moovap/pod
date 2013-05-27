@@ -1,0 +1,4 @@
+server:
+  host: 'localhost'
+  port: '2222'
+  user: 'deployer'
