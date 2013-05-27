@@ -1,3 +1,5 @@
+require 'psych'
+
 config = Psych.load(File.open('config/server.yaml'))
 user = confif['server']['user']
 app_name = "pod"
