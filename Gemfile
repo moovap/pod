@@ -6,7 +6,6 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'psych'
-gem 'capistrano-rbenv', '1.0.1'
 
 # gem 'pg'
 gem 'newrelic_rpm'
