@@ -1,7 +1,7 @@
 require 'psych'
 
 config = Psych.load(File.open('config/server.yaml'))
-user = confif['server']['user']
+user = config['server']['user']
 app_name = "pod"
 root = "/home/#{user}/apps/#{app_name}/current"
 working_directory root
