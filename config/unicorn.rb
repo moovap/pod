@@ -10,5 +10,5 @@ stderr_path "/var/run/unicorn/log/unicorn_#{app_name}.log"
 stdout_path "/var/run/unicorn/log/unicorn_#{app_name}.log"
 
 listen "/tmp/unicorn.#{app_name}.sock"
-worker_processes 2
+worker_processes 1
 timeout 30
