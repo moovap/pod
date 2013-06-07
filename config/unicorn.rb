@@ -1,14 +1,9 @@
-require 'psych'
-
-config = Psych.load(File.open('config/server.yaml'))
-user = config['server']['user']
-app_name = "pod"
-root = "/home/#{user}/apps/#{app_name}/current"
+root = "/home/deployer/apps/pod/current"
 working_directory root
-pid "/var/run/unicorn/unicorn_#{app_name}.pid"
-stderr_path "/var/run/unicorn/log/unicorn_#{app_name}.log"
-stdout_path "/var/run/unicorn/log/unicorn_#{app_name}.log"
+pid "#{root}/tmp/pids/unicorn.pid"
+stderr_path "#{root}/log/unicorn.log"
+stdout_path "#{root}/log/unicorn.log"
 
-listen "/tmp/unicorn.#{app_name}.sock"
+listen "/tmp/unicorn.pod.sock"
 worker_processes 1
 timeout 30
