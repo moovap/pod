@@ -1,9 +1,9 @@
+include_recipe "pod::setup"
+
 class Chef::Recipe
     # mix in recipe helpers
     include Chef::RubyBuild::RecipeHelpers
 end
-
-include_recipe "pod::setup"
 
 include_recipe "nginx"
 include_recipe "unicorn"

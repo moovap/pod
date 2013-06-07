@@ -1,3 +1,5 @@
+include_recipe "ruby_build"
+
 class Chef::Recipe
     # mix in recipe helpers
     include Chef::RubyBuild::RecipeHelpers
@@ -8,7 +10,6 @@ node.default['rbenv']['rubies'] = [ node['pod']['ruby_version'] ]
 include_recipe "apt"
 include_recipe "tar"
 package "build-essential"
-include_recipe "ruby_build"
 
 include_recipe "xvfb"
 include_recipe "pod::wkhtmltopdf"
