@@ -40,7 +40,6 @@ gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
-gem 'knife-solo'
 
 # To use debugger
 # gem 'debugger'
